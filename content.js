@@ -16,8 +16,7 @@ document.addEventListener('keydown', function(event) {
 
     window.location.href = url.href;
   } else if (event.key === 'h') {
-    window.scrollTo({ top: window.scrollY - 300, behavior: 'smooth' }); // 250px 위로 스크롤
+    window.scrollTo({ top: window.scrollY - 300, behavior: 'smooth' });
   } else if (event.key === 'l') {
-    window.scrollTo({ top: window.scrollY + 300, behavior: 'smooth' }); // 250px 아래로 스크롤
-  }
+    window.scrollTo({ top: window.scrollY + 300, behavior: 'smooth' }); 
 });
