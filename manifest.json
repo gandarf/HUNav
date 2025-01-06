@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Humoruniv Navigator",
+  "version": "1.0",
+  "description": "Navigate threads with keys",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://web.humoruniv.com/board/humor/read.html*"],
+      "js": ["content.js"]
+    }
+  ]
+}
